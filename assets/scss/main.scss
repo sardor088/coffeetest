@@ -2,3 +2,8 @@
 @import "./fonts";
 @import "./normalize";
 @import "./variable";
+@import "./blocks/blocks";
+
+ul li{
+    list-style: none;
+}
