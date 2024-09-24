@@ -2,5 +2,24 @@
     .header_content {
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        height: 80px;
+        background: url(..//..//images/header_fon.png);
+        background-size: cover;
+        align-items: center;
     }
+
+    .header_list {
+        display: flex;
+        gap: 40px;
+    }
+
+    li a {
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
 }
